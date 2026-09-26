@@ -30,6 +30,7 @@ This is a **mixin** in companion-pair form:
 
 ## Prerequisites
 
+- Ensure that you have sbx 0.45.0 installed
 - [`sbx` CLI](https://docs.docker.com/ai/sandboxes/install/) (supports Kits v3)
 - A running Docker daemon with **Docker Model Runner** enabled, serving the
   models named in `mem0.yaml` (`ai/gemma3`, `ai/mxbai-embed-large`)

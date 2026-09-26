@@ -65,6 +65,12 @@ docker buildx build . -f mem0.yaml --platform linux/amd64,linux/arm64 --push \
 sbx run docker/sbx-kit-shell:1.0.0 --kit docker.io/ajeetraina/sbx-kit-mem0:2.0.5 .
 ```
 
+## Removing the kit
+
+```
+❯ sbx rm -f sbx-kit-shell-sbx-kit-mem0-v3
+```
+
 ## Notes for adopters
 
 - If your base workload's Python packages differ, the kit still works because
